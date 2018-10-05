@@ -1,0 +1,39 @@
+body {
+    background-color: chartreuse;
+
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+
+
+
+input {
+    padding: 8px;
+    border-color: darkorange;
+    border-style: solid;
+    margin: 8px 0px;
+    background-color: moccasin;
+    font-family: inherit;
+}
+
+input:focus {
+    background-color: seashell;
+}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    border-color: floralwhite;
+    -webkit-box-shadow: 0 0 0px 1000px chartreuse inset;
+
+}
+
+button {
+    padding: 8px;
+    border-color: darkorange;
+    border-style: solid;
+    margin: 8px 0px;
+    background-color: moccasin;
+    font-family: inherit;
+}
